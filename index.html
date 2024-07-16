@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>POKEMON</title>
+  </head>
+  <body>
+    <div class="container">
+      <p>
+        If you dont know any name of pokemon you can search in this link
+        <a
+          href="https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_name"
+          target="_blank"
+          >CLICK HERE</a
+        >
+      </p>
+      <div class="input-search">
+        <input type="text" id="pokemon-name" placeholder="Enter Pokemon Name" />
+        <button onclick="fetchData()">Fetch Pokemon</button>
+      </div>
+
+      <img
+        src=""
+        alt="Pokemon Sprite"
+        id="pokemonSprite"
+        style="display: none"
+      />
+    </div>
+
+    <h1 id="abilities" style="display: none"></h1>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
